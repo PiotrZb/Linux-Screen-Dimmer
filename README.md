@@ -17,15 +17,15 @@ python3 /path_to_script/ScreenDimmer.py
 but I recommend creating a keyboard shortcut...
 
 
-![shortcut](https://github.com/PiotrZb/Linux-Screen-Dimmer/assets/84187115/e2d64566-e209-40c0-97f1-3614a48eaa75)
+![shortcut](https://github.com/PiotrZb/Linux-Screen-Dimmer/assets/84187115/7f2bc8b9-c40a-4400-95c9-63d439f1bd76)
 
 
 or creating launcher attached to the panel.
 
+![launcher](https://github.com/PiotrZb/Linux-Screen-Dimmer/assets/84187115/d2068e29-23e2-4e2b-85f8-5ee2f973552c)
 
-![launcher](https://github.com/PiotrZb/Linux-Screen-Dimmer/assets/84187115/af097de3-2f0a-45a0-b2de-337e8e082722)
 
-![panel](https://github.com/PiotrZb/Linux-Screen-Dimmer/assets/84187115/5810822f-9ed2-499b-a85e-f07bb80a4cdc)
+![panel](https://github.com/PiotrZb/Linux-Screen-Dimmer/assets/84187115/956c3826-cf82-42c8-b4b8-4bb0ee9078db)
 
 
 ## Default values 🛠️
