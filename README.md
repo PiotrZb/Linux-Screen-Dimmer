@@ -52,5 +52,5 @@ MONITOR_NAMES = ["eDP", "HDMI-0"]
 * Be careful when setting brightness levels, as extremely low brightness levels may result in a black screen or make the monitor barely visible.
 * The script has only been tested on Linux Mint 21.2.
 
-## License
-[The MIT License](https://choosealicense.com/licenses/mit/)
+## License :page_facing_up:
+[MIT License](LICENSE)
