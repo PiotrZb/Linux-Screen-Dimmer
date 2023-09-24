@@ -47,10 +47,18 @@ If you want to use this script only for selected monitors, you should list them 
 MONITOR_NAMES = ["eDP", "HDMI-0"]
 ```
 
+## MoleSavior 💡
+Using `redshift` in auto mode with ScreenDimmer may couse the screen to start blinking. 
+To solve this problem, you can use `MoleSavior.py`. This script uses `redshift` to adjust the color temperature of displays.
+* You can run it via the console (`python3 MoleSavior.py`) or through launcher as it was shown above.
+* The default temperature is set to **6500K**
+* The default list of temperatures is as follows: `TEMPS = [5000, 4000, 3000, 2500]`. You should adjust this list to your preferences.
+* You can install `redshift` using the following command `sudo apt-get install redshift` (You don't need the redshift GUI - `redshift-gtk`).
+
 ## Caution ⚠️
 * It's essential to have proper permissions to modify monitor settings using `xrandr`.
 * Be careful when setting brightness levels, as extremely low brightness levels may result in a black screen or make the monitor barely visible.
-* The script has only been tested on Linux Mint 21.2.
+* The scripts have only been tested on Linux Mint 21.2.
 
 ## License :page_facing_up:
 [MIT License](LICENSE)
