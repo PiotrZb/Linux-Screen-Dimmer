@@ -75,6 +75,12 @@ def main():
             else:
                 for monitor_name in MONITOR_NAMES:
                     set_brightness_lvl(get_next_brightness_lvl(get_current_brightness_lvl(monitor_name)), monitor_name)
+
+            with open("Data.txt", "r") as file:
+                lines = file.readlines()
+                for line in lines:
+                    if "LastColorTemp" in line:
+                        sp.run(f"redshift -O {int(line.split(':')[-1])}", shell=True)
         
         else:
             print("Something went wrong, please check entered values and monitor names")
